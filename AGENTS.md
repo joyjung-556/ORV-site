@@ -53,3 +53,14 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Movie posters retain their native ratio and touch horizontally without letterbox gaps between slides.
 - Character logo is 20% larger than the previous half-size version, with the panel unchanged.
 - The second world video crops the source's right third, aligns the remaining two-thirds left, and animates that cropped region.
+
+## Analytics Tracking — Mixpanel
+
+- Platform: React 19 + Vite 6 web app; SDK: `mixpanel-browser` `^2.83.0`; direct client-side tracking with no CDP.
+- Mixpanel is initialized once in `src/analytics.js`. Do not initialize it in components.
+- Project token comes only from `VITE_MIXPANEL_TOKEN`; never hardcode it in tracked source files.
+- Audience region is unknown, so consent is required. Initialization uses `opt_out_tracking_by_default: true`; events may fire only after `mixpanel.opt_in_tracking()`.
+- The site has no authentication. Keep anonymous device identity and do not add profiles or PII.
+- Value Moment: `external_link_clicked` for webtoon, web novel, movie, trailer, and goods destinations.
+- Current events: `page_viewed`, `page_exited`, `internal_navigation`, `external_link_clicked`. Event and property names must remain stable `snake_case`.
+- Before adding an event, check `MIXPANEL.md`, reuse existing properties, update both that document and this list, and verify in Mixpanel Live View.

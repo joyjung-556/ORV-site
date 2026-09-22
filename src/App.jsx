@@ -6,13 +6,14 @@ import { media } from './media';
 import {Characters, NovelShelf} from './Shelves';
 import {GoodsCarousel} from './GoodsCarousel';
 import {WorldMedia, WorldThumbnail, MoviePosters, GoodsMascot, MascotSpeech} from './MediaDisplays';
-import {enterPage, trackInternalNavigation} from './analytics';
+import {acceptAnalytics, declineAnalytics, enterPage, getAnalyticsConsent, isAnalyticsEnabled, trackInternalNavigation} from './analytics';
 const sections = ['메인','세계관','등장인물','웹소설','영화','굿즈'];
 const ids = ['main','world','characters','novel','movie','goods'];
 const icons = [IdentificationCard,PersonSimple,Coffee,Key,Rabbit,PersonArmsSpread,Shield,Sticker,Magnet,Notepad];
 function External({href,children,...props}) { return <a href={href} target="_blank" rel="noreferrer" {...props}>{children}</a>; }
 function Media({src,label,className=''}) { return <div className={`media ${className}`} aria-label={label}>{src?<img src={src} alt={label}/>:<span className="media-label">{label}</span>}</div>; }
 function Brand(){return media.logo?<img className="brand-image" src={media.logo} alt="전지적 독자 시점"/>:<span className="brand-type">전지적<span>독자시점</span></span>;}
+function AnalyticsConsent(){const [choice,setChoice]=useState(()=>getAnalyticsConsent());if(!isAnalyticsEnabled()||choice)return null;return <aside className="analytics-consent" aria-label="분석 쿠키 설정"><p><strong>방문 분석 안내</strong><span>사이트 이용 흐름을 개선하기 위해 익명 이용 기록을 수집합니다. 개인정보와 IP 주소는 수집하지 않습니다.</span></p><div><button onClick={()=>{declineAnalytics();setChoice('denied')}}>거부</button><button className="accept" onClick={()=>{acceptAnalytics();setChoice('granted')}}>동의</button></div></aside>}
 function Pager({page,setPage,total}){return <div className="pager"><button aria-label="이전 내용" disabled={page===0} onClick={()=>setPage(page-1)}><ArrowLeft/></button><span>{page+1} / {total}</span><button aria-label="다음 내용" disabled={page===total-1} onClick={()=>setPage(page+1)}><ArrowRight/></button></div>;}
 function Modal({title,onClose,children}){const ref=useRef(null);useEffect(()=>{const el=ref.current;el.showModal();return()=>el.close();},[]);return <dialog ref={ref} onCancel={onClose} onClick={e=>{if(e.target===e.currentTarget)onClose();}} aria-label={title}><div className="modal-head"><h2>{title}</h2><button onClick={onClose} aria-label="닫기" autoFocus><X/></button></div>{children}</dialog>;}
 export function App(){
@@ -37,5 +38,6 @@ export function App(){
  {active==='goods'&&<section className="goods-section" aria-label="굿즈"><div className="goods-main"><div className="mascot-area"><MascotSpeech/><GoodsMascot/></div><div className="goods-panel"><i className="panel-corner tl"/><i className="panel-corner tr"/><i className="panel-corner bl"/><i className="panel-corner br"/><h1>도깨비 보따리</h1><GoodsCarousel categoryIndex={category} onCategoryChange={setCategory}/><div className="goods-controls"><div className="category-grid">{categories.map((c,i)=>{const Icon=icons[i];return <button key={c} aria-pressed={category===i} className={category===i?'selected':''} onClick={()=>{setCategory(i);}}><Icon/><span>{c}</span></button>;})}</div><External className="goods-more" href={links.store}>더 보러가기</External></div></div></div><footer><Brand/><span>© Omniscient Reader’s Viewpoint <small>팬 메이드 사이트</small></span><div><External href={links.novel} aria-label="네이버 시리즈">SERIES</External><External href={links.webtoon} aria-label="네이버 웹툰">WEBTOON</External><button onClick={()=>setMore('sources')}>출처</button></div></footer></section>}
  </div></main>
  {more==='sources'&&<Modal title="작품 정보 및 출처" onClose={()=>setMore(false)}><div className="source-content"><p>전지적 독자 시점 · 원작 싱숑<br/>웹툰 각색 UMI · 그림 슬리피-C</p><p>작품 소개와 세계관 설명은 아래 자료를 참고해 요약했습니다. 단행본 목차는 출판사 제공 도서 정보를 참고했습니다.</p>{Object.entries({webtoon:'네이버 웹툰',novel:'네이버 시리즈',books:'단행본',movie:'영화 정보',trailer:'롯데엔터테인먼트 공식 예고편',store:'스타스트림 스토어'}).map(([k,v])=><External key={k} href={links[k]}>{v} <ArrowUpRight/></External>)}<p>팬 메이드 구현입니다. 작품과 미디어의 권리는 각 권리자에게 있습니다.</p></div></Modal>}
+ <AnalyticsConsent/>
  </>;
 }
