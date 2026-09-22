@@ -24,7 +24,32 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 ## Latest browser feedback — 2026-09-22
 
+- Latest refinements: remove speech tail without resizing bubble; increase only text by 10px. Mascot toggles 01/02 on click (and keyboard), replacing hover.
+- Mobile portrait crops prioritize faces; novel detail covers and main video use contain. Character logo image is 50% within unchanged panel; header logo height is 40px.
+- Main has a bottom scroll cue. Posters take 19 seconds per image (133-second full loop). Only second world video enters from outside top-left toward bottom-right.
+
+- New exceptions to centered cover: book hover previews, movie posters, and mascot use contain so the full image remains visible. Movie letterboxing is black.
+- World videos are absolutely sized to fill the full visual panel.
+- Mobile primary characters stack as five horizontal strips fitting one viewport; selection expands vertically with details below.
+- Movie posters move continuously right to left without dwell, with a bottom gradient behind the buttons.
+- Mascot floats vertically and crossfades from mascot01 to mascot02 on hover/focus. Speech uses the supplied white angular outline with bottom-right tail and warm glowing italic text.
+
+- Preserve source image aspect ratios. Fill media slots with centered `object-fit: cover`; cropping at the edges is acceptable. Do not stretch or use `contain` for content images.
+
+- Latest revision: world backgrounds are videos, with separate thumbnail images (or video first frames). Inactive thumbnails are dark, hover brightens, selection stays bright with a cyan border.
+- Main character portrait expands to 2× its resting width, superseding 1.5×.
+- Movie cycles through 7 responsive landscape/portrait poster pairs from right to left, with slow transitions.
+- Goods auto motion now travels right to left; after all 3 products, advance to the next category. Keep 4-second dwell and 1-second motion.
+- Wheel navigation works at every viewport width and over world copy. Scroll long content to its boundary before navigating sections. Mobile expanded shelves must grow to fit all detail content.
+
 - Novel and character catalogue details expand inline at their original ordered position; automatically scroll the shelf to reveal the complete expanded entry.
 - World copy must paginate to its measured available height; no internal scrolling or dropped overflow text.
 - Poster return button is absolutely positioned at the movie panel bottom-right. Header webtoon CTA uses the same left-to-right fill interaction.
 - Goods emphasis belongs to the moving card, not a fixed overlay. Auto motion brings the left card into the center with gradual brightness/border interpolation; retain 4 seconds dwell and 1 second motion. This supersedes the previous fixed-frame preference.
+
+## Latest media refinements — 2026-09-22
+- Inactive world thumbnail buttons use a dark shade of the active cyan border; active borders remain bright cyan.
+- Speech text is centered in the tailless bubble and scales with the bubble, never beyond its outline.
+- Movie posters retain their native ratio and touch horizontally without letterbox gaps between slides.
+- Character logo is 20% larger than the previous half-size version, with the panel unchanged.
+- The second world video crops the source's right third, aligns the remaining two-thirds left, and animates that cropped region.

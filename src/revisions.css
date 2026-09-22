@@ -16,7 +16,7 @@
 .people-portrait:hover>span,.selected>.people-portrait>span{color:#fff}
 .is-expanded .people-logo{flex-basis:0}
 .is-expanded .people-unit.selected{flex-basis:52%}
-.selected>.people-portrait{width:18cqw;flex-basis:18cqw}
+.selected>.people-portrait{width:24cqw;flex-basis:24cqw}
 .person-detail{position:relative;flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;padding:4vw;animation:screenIn .65s;background:#000}
 .person-detail h1{font:700 clamp(30px,3vw,56px) var(--serif);margin:25px 0}
 .person-detail h2{font-size:19px;margin:0 0 22px}.person-detail>p{color:#aaa;font-size:16px;line-height:1.9;word-break:keep-all}
