@@ -57,6 +57,12 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 ## Analytics Tracking — Mixpanel
 
 ## Browser revisions — 2026-09-23
+- Product sale URLs are edited in `src/goodsLinks.json`: three URLs per category in image 01/02/03 order; empty URLs remain non-clickable. The all category reuses the same links. Product anchors open a new tab and use existing external-link analytics.
+- Per-volume excerpt text and source captions are edited in `src/novelExcerpts.json`, keyed by part-volume (e.g. `1-1`). Preserve line breaks in text.
+- World topic buttons use the supplied `world-NN-thumbnail.png` images.
+- Image book spines retain the character shelf's thin gray border and rounded top corners.
+- Selecting the movie navigation item always returns to the poster view, including when already watching a trailer.
+- Goods use supplied special/paper/acryl/figures/plush/fabric/etc images, numbered 01–03. Paper uses `paper01.png`–`paper03.png`, replacing the removed photocard files. The all category aggregates these seven groups.
 - Speech bubble is behind the mascot; mascot background remains transparent.
 - Book spines use supplied images with equal displayed heights and natural widths, superseding the earlier fixed-width rule. Spine filenames append `-1` to the cover filename: `public/media/books/partN-VV-1.png`.
 - Trailer choices display thumbnails and play official YouTube embeds in the page. Bottom-right CTA is an external “영화 보러가기” link.
@@ -67,7 +73,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Platform: React 19 + Vite 6 web app; SDK: `mixpanel-browser` `^2.83.0`; direct client-side tracking with no CDP.
 - Mixpanel is initialized once in `src/analytics.js`. Do not initialize it in components.
 - Project token comes only from `VITE_MIXPANEL_TOKEN`; never hardcode it in tracked source files.
-- Audience region is unknown, so consent is required. Initialization uses `opt_out_tracking_by_default: true`; events may fire only after `mixpanel.opt_in_tracking()`.
+- Per user request, show no analytics consent banner. Track by default when configured; preserve previously explicit declines and browser Do Not Track. Remove legacy default opt-out for visitors who never declined.
 - The site has no authentication. Keep anonymous device identity and do not add profiles or PII.
 - Value Moment: `external_link_clicked` for webtoon, web novel, movie, trailer, and goods destinations.
 - Current events: `page_viewed`, `page_exited`, `internal_navigation`, `external_link_clicked`. Event and property names must remain stable `snake_case`.

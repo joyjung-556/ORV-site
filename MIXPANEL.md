@@ -21,4 +21,4 @@
 4. **가장 오래 머문 화면**: Insights에서 `page_exited`를 선택해 `engaged_seconds`의 Average를 계산하고 `page_name`으로 분해합니다. 함께 Median 또는 75th percentile을 보면 일부 장기 체류 사용자의 왜곡을 줄일 수 있습니다.
 5. **화면별 외부 전환율**: `page_viewed` → `external_link_clicked` Funnel을 만들고 `source_page_name`으로 분해합니다.
 
-개인정보와 IP 주소는 수집하지 않습니다. 방문 지역이 불명확하므로 사용자가 분석 쿠키에 동의하기 전에는 Mixpanel 이벤트가 전송되지 않습니다.
+분석 동의창 없이 기본 수집합니다. 이름·이메일 같은 프로필 정보와 IP 기반 위치 수집은 사용하지 않습니다. 기존에 명시적으로 거부한 방문자와 브라우저 Do Not Track 설정은 존중합니다.

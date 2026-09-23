@@ -18,13 +18,18 @@ function baseProperties(){return {session_id:sessionId,page_path:location.pathna
 
 export function initAnalytics(){
  if(!enabled||initialized)return;
- mixpanel.init(token,{persistence:'localStorage',track_pageview:false,ip:false,ignore_dnt:false,opt_out_tracking_by_default:true,debug:import.meta.env.DEV});
+ mixpanel.init(token,{persistence:'localStorage',track_pageview:false,ip:false,ignore_dnt:false,opt_out_tracking_by_default:false,debug:import.meta.env.DEV});
+ // Remove the old default opt-out, while preserving an explicit refusal.
+ let previouslyDeclined=false;
+ try {previouslyDeclined=localStorage.getItem(consentKey)==='denied';} catch {}
+ if(previouslyDeclined)mixpanel.opt_out_tracking();
+ else mixpanel.clear_opt_in_out_tracking();
  initialized=true;
 }
 export function track(event,properties={},options){
  if(!enabled)return;
  initAnalytics();
- if(!mixpanel.has_opted_in_tracking())return;
+ if(mixpanel.has_opted_out_tracking())return;
  mixpanel.track(event,{...baseProperties(),...properties},options);
 }
 function accumulateVisibleTime(){
@@ -52,14 +57,6 @@ export function trackExternalLink({href,label,area}){
  const url=new URL(href,location.href);const pageId=current?.id||location.hash.slice(1)||'main';
  track('external_link_clicked',{source_page_id:pageId,source_page_name:pageNames[pageId],link_label:label,link_area:area||'unknown',destination_url:url.href,destination_host:url.hostname,destination_path:url.pathname});
 }
-export function getAnalyticsConsent(){return localStorage.getItem(consentKey);}
-export function acceptAnalytics(){
- if(!enabled)return;
- initAnalytics();mixpanel.opt_in_tracking();localStorage.setItem(consentKey,'granted');
- if(current){current.startedAt=performance.now();current.visibleMs=0;current.visibleSince=document.visibilityState==='visible'?performance.now():null;current.exited=false;track('page_viewed',{page_id:current.id,page_name:pageNames[current.id],previous_page_id:null,previous_page_name:null,entry_url:location.href,referrer:document.referrer||null,entry_reason:'consent_granted'});}
-}
-export function declineAnalytics(){if(!enabled)return;initAnalytics();mixpanel.opt_out_tracking();localStorage.setItem(consentKey,'denied');}
-export function isAnalyticsEnabled(){return enabled;}
 export function bindPageLifecycle(){
  const visibility=()=>{if(!current)return;if(document.visibilityState==='hidden')accumulateVisibleTime();else if(!current.visibleSince)current.visibleSince=performance.now();};
  const pagehide=()=>leaveCurrentPage('pagehide',null,'sendBeacon');

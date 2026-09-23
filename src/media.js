@@ -1,4 +1,7 @@
 // public/media에 추가된 파일을 화면 슬롯에 연결합니다.
+const goodsAssets = import.meta.glob('/public/media/goods/*.png', {eager:true,query:'?url',import:'default'});
+const goodsImage = name => goodsAssets[`/public/media/goods/${name}.png`];
+const goodsGroup = prefix => Array.from({length:3},(_,i)=>goodsImage(`${prefix}0${i+1}`));
 export const media = {
  logo: '/media/brand/logo.png',
  characterLogo: '/media/brand/character-logo.png',
@@ -9,7 +12,7 @@ export const media = {
   '/media/world/world-01.mp4', '/media/world/world-02.mp4',
   '/media/world/world-03.mp4', '/media/world/world-04.mp4',
  ],
- worldThumbnails: ['', '', '', ''],
+ worldThumbnails: Array.from({length:4},(_,i)=>`/media/world/world-${String(i+1).padStart(2,'0')}-thumbnail.png`),
  worlds: ['', '', '', ''],
 
  // 주요 인물: 김독자, 유중혁, 정희원, 이현성, 유상아, 한수영, 이길영
@@ -52,7 +55,12 @@ export const media = {
  mascot: '/media/goods/mascot01.png',
  mascotHover: '/media/goods/mascot02.png',
  products: {
-  '페이퍼': ['/media/goods/photocard-01.png','/media/goods/photocard-02.png','/media/goods/photocard-03.png'],
-  '기타': ['/media/goods/keyring-01.png','/media/goods/keyring-02.png','/media/goods/keyring-03.png'],
+  '스페셜': goodsGroup('special'),
+  '페이퍼': goodsGroup('paper'),
+  '아크릴': goodsGroup('acryl'),
+  '피규어': goodsGroup('figures'),
+  '봉제': goodsGroup('plush'),
+  '패브릭': goodsGroup('fabric'),
+  '기타': goodsGroup('etc'),
  },
 };
