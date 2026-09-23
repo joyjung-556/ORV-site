@@ -56,6 +56,14 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 ## Analytics Tracking — Mixpanel
 
+## Browser revisions — 2026-09-23
+- Speech bubble is behind the mascot; mascot background remains transparent.
+- Book spines use supplied images with equal displayed heights and natural widths, superseding the earlier fixed-width rule. Spine filenames append `-1` to the cover filename: `public/media/books/partN-VV-1.png`.
+- Trailer choices display thumbnails and play official YouTube embeds in the page. Bottom-right CTA is an external “영화 보러가기” link.
+- Goods categories: 전체, 스페셜, 페이퍼, 아크릴, 피규어, 봉제, 패브릭, 기타. 전체 includes all supplied product images. Advance category after its actual product count; keep 4-second dwell and 1-second motion.
+
+## Analytics implementation
+
 - Platform: React 19 + Vite 6 web app; SDK: `mixpanel-browser` `^2.83.0`; direct client-side tracking with no CDP.
 - Mixpanel is initialized once in `src/analytics.js`. Do not initialize it in components.
 - Project token comes only from `VITE_MIXPANEL_TOKEN`; never hardcode it in tracked source files.

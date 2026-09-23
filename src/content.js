@@ -38,4 +38,4 @@ export const characters = [
  {name:'이길영',role:'작은 동료',en:'LEE GILYOUNG',desc:'김독자와 첫 시나리오를 함께한 소년. 곤충과 관련된 능력을 활용하며 자신만의 방식으로 동료들을 돕는다.',tags:['첫 시나리오','곤충','동료']}
 ];
 export const books = [8,3,3,4,2].flatMap((count,p)=>Array.from({length:count},(_,v)=>({id:`${p+1}-${v+1}`,part:p+1,volume:v+1})));
-export const categories=['포토카드','피규어','텀블러','키링','인형','아크릴','와펜','스티커','마그넷','메모지'];
+export const categories=['전체','스페셜','페이퍼','아크릴','피규어','봉제','패브릭','기타'];

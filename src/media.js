@@ -29,6 +29,11 @@ export const media = {
   jihye: '/media/characters/jihye.png',
  },
 
+ // Book spines use the cover filename with a trailing -1.
+ bookSpines: Object.fromEntries(Object.entries(import.meta.glob('/public/media/books/part*-*-1.png', {eager:true,query:'?url',import:'default'})).map(([path,url])=>{
+  const [,part,volume]=path.match(/part(\d+)-(\d+)-1\./);
+  return [`${part}-${Number(volume)}`,url];
+ })),
  bookCovers: Object.fromEntries([
   ...Array.from({length:8},(_,i)=>[`1-${i+1}`,`/media/books/part1-${String(i+1).padStart(2,'0')}.png`]),
   ...Array.from({length:3},(_,i)=>[`2-${i+1}`,`/media/books/part2-${String(i+1).padStart(2,'0')}.png`]),
@@ -47,7 +52,7 @@ export const media = {
  mascot: '/media/goods/mascot01.png',
  mascotHover: '/media/goods/mascot02.png',
  products: {
-  '포토카드': ['/media/goods/photocard-01.png','/media/goods/photocard-02.png','/media/goods/photocard-03.png'],
-  '키링': ['/media/goods/keyring-01.png','/media/goods/keyring-02.png','/media/goods/keyring-03.png'],
+  '페이퍼': ['/media/goods/photocard-01.png','/media/goods/photocard-02.png','/media/goods/photocard-03.png'],
+  '기타': ['/media/goods/keyring-01.png','/media/goods/keyring-02.png','/media/goods/keyring-03.png'],
  },
 };
