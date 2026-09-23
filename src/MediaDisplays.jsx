@@ -2,10 +2,26 @@ import {useEffect,useRef,useState} from 'react';
 import {media} from './media';
 
 export function WorldMedia({index,name}){
- const src=media.worldVideos[index];
+ const [visibleIndex,setVisibleIndex]=useState(index);
  const [ratio,setRatio]=useState(1);
- return <div key={index} className={'media world-background'+(index===1?' star-stream-motion':'')} aria-label={name+' 배경 영상 영역'}>
-  {src?(index===1?<div className="world-video-crop" style={{aspectRatio:ratio*2/3}}><video key={src} src={src} onLoadedMetadata={e=>setRatio(e.currentTarget.videoWidth/e.currentTarget.videoHeight)} autoPlay muted loop playsInline/></div>:<video key={src} src={src} poster={media.worldThumbnails[index]||media.worlds[index]||undefined} autoPlay muted loop playsInline/>):<span className="media-label">{name} 배경 영상 영역</span>}
+ const videos=useRef([]);
+ const requested=useRef(index);
+ requested.current=index;
+ useEffect(()=>{
+  const video=videos.current[index];
+  if(!video)return;
+  video.play().catch(()=>setVisibleIndex(index));
+ },[index]);
+ useEffect(()=>{
+  const timer=setTimeout(()=>videos.current.forEach((video,i)=>{if(i!==visibleIndex)video?.pause()}),500);
+  return()=>clearTimeout(timer);
+ },[visibleIndex]);
+ return <div className={`media world-background${index===1&&visibleIndex!==1?' entering-star-stream':''}`} aria-label={name+' 배경 영상 영역'}>
+  {media.worldVideos.map((src,i)=><div key={src} className={`world-layer ${visibleIndex===i?'is-current':''} ${i===1?'star-stream-motion':''}`} aria-hidden={visibleIndex!==i}>
+   {i!==1&&media.worldThumbnails[i]&&<img className="world-poster" src={media.worldThumbnails[i]} alt=""/>}
+   {i===1?<div className="world-video-crop" style={{aspectRatio:ratio*2/3}}><video ref={node=>videos.current[i]=node} src={src} preload={i===index?'auto':'none'} onLoadedMetadata={e=>setRatio(e.currentTarget.videoWidth/e.currentTarget.videoHeight)} onPlaying={()=>{if(requested.current===i)setVisibleIndex(i)}} muted loop playsInline/></div>:
+    <video ref={node=>videos.current[i]=node} src={src} preload={i===index?'auto':'none'} onPlaying={()=>{if(requested.current===i)setVisibleIndex(i)}} muted loop playsInline/>}
+  </div>)}
  </div>;
 }
 export function WorldThumbnail({index}){

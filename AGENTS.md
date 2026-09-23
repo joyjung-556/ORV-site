@@ -53,10 +53,12 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Movie posters retain their native ratio and touch horizontally without letterbox gaps between slides.
 - Character logo is 20% larger than the previous half-size version, with the panel unchanged.
 - The second world video crops the source's right third, aligns the remaining two-thirds left, and animates that cropped region.
+- The second world video enters over a black background, without a thumbnail or previous video visible behind the entrance motion.
 
 ## Analytics Tracking — Mixpanel
 
 ## Browser revisions — 2026-09-23
+- World videos 03/04 preserve the left edge with left aligned cover cropping. World switching keeps the previous video visible until the next video starts, then fades between them; reduced motion skips the fade.
 - Product sale URLs are edited in `src/goodsLinks.json`: three URLs per category in image 01/02/03 order; empty URLs remain non-clickable. The all category reuses the same links. Product anchors open a new tab and use existing external-link analytics.
 - Per-volume excerpt text and source captions are edited in `src/novelExcerpts.json`, keyed by part-volume (e.g. `1-1`). Preserve line breaks in text.
 - World topic buttons use the supplied `world-NN-thumbnail.png` images.
