@@ -80,3 +80,4 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Value Moment: `external_link_clicked` for webtoon, web novel, movie, trailer, and goods destinations.
 - Current events: `page_viewed`, `page_exited`, `internal_navigation`, `external_link_clicked`. Event and property names must remain stable `snake_case`.
 - Before adding an event, check `MIXPANEL.md`, reuse existing properties, update both that document and this list, and verify in Mixpanel Live View.
+- Internal navigation uses `navigation_method`: `click` for header links, `scroll` for wheel/touch section changes, `keyboard` for PageUp/PageDown, and `browser_history` for browser navigation. Compare departures from the main screen with `from_page_id = main`.

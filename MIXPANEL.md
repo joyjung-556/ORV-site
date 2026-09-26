@@ -21,4 +21,13 @@
 4. **가장 오래 머문 화면**: Insights에서 `page_exited`를 선택해 `engaged_seconds`의 Average를 계산하고 `page_name`으로 분해합니다. 함께 Median 또는 75th percentile을 보면 일부 장기 체류 사용자의 왜곡을 줄일 수 있습니다.
 5. **화면별 외부 전환율**: `page_viewed` → `external_link_clicked` Funnel을 만들고 `source_page_name`으로 분해합니다.
 
+### 메인 화면에서 어디로 이동했는지
+
+`internal_navigation`의 `navigation_method`는 메뉴/로고 클릭 `click`, 마우스 휠·터치 스와이프 `scroll`, PageUp/PageDown `keyboard`, 브라우저 뒤로/앞으로 `browser_history`로 기록합니다. 이 구분은 새 코드가 배포된 뒤 발생한 이벤트부터 적용됩니다. 이전 이벤트의 `unknown` 값은 소급해 변경되지 않습니다.
+
+1. **이동 목적지와 방식별 클릭/스크롤 횟수**: Insights에서 `internal_navigation` → 측정값 **Total Events** → Filter `from_page_id = main` → Breakdown `to_page_name`, `navigation_method` 순으로 추가합니다. Bar 또는 Table로 보고 값 내림차순으로 정렬합니다. 이 리포트는 메인 화면에서 발생한 모든 내부 이동을 셉니다. 같은 방문자가 메인으로 돌아와 다시 이동하면 각각 집계됩니다.
+2. **첫 화면 진입 후 이동 전환율**: Funnels에서 1단계 `page_viewed` (해당 단계 Filter `page_id = main`), 2단계 `internal_navigation` (해당 단계 Filter `from_page_id = main`)으로 설정합니다. 전환 창을 **1 session**으로 제한하고 2단계의 `to_page_name` 또는 `navigation_method`로 Breakdown합니다. Breakdown 속성의 귀속 단계는 **Step 2**로 지정합니다. 이 리포트는 진입자 중 이동한 사람의 비율을 보여주므로, 가장 많이 발생한 이동 횟수 순위는 위 Insights 리포트를 사용합니다.
+
+헤더의 외부 `웹툰 바로가기`는 `internal_navigation`이 아니라 `external_link_clicked`에 기록됩니다. 이 외부 이동까지 함께 보려면 별도의 Insights 리포트에서 `source_page_id = main`으로 필터링합니다.
+
 분석 동의창 없이 기본 수집합니다. 이름·이메일 같은 프로필 정보와 IP 기반 위치 수집은 사용하지 않습니다. 기존에 명시적으로 거부한 방문자와 브라우저 Do Not Track 설정은 존중합니다.
