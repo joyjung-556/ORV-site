@@ -1,0 +1,67 @@
+/* Give raised spines real space inside the horizontal scrollport. */
+@media (min-width:900px) {
+  .novel-shelf.detail-open .inline-book-scroll {
+    height:calc(100% - 5vh + 24px);
+    padding-top:24px;
+  }
+}
+
+.chapter-list {gap:10px}
+.chapter-list li {display:flex;align-items:flex-start;gap:12px;min-width:0}
+.chapter-list li>.chapter-novel-link {font:inherit;white-space:normal;text-decoration:none;flex-shrink:1}
+.chapter-list li>.chapter-webtoon-link {font:inherit;font-size:11px;text-decoration:none}
+.chapter-novel-link {display:flex;align-items:baseline;gap:14px;flex:1;min-width:0;padding:8px 0;color:#ddd;transition:color .2s}
+.chapter-number {font:400 clamp(10px,.73vw,14px)/1.5 Mapo;white-space:nowrap;text-decoration:underline;text-underline-offset:6px;flex-shrink:0}
+.chapter-title {font:400 clamp(13px,.9vw,18px)/1.5 var(--serif);word-break:keep-all;overflow-wrap:anywhere}
+a.chapter-novel-link:hover,a.chapter-novel-link:focus-visible {color:var(--cyan)}
+.chapter-webtoon-link {display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;min-height:34px;padding:7px 10px;border:1px solid #343434;border-radius:4px;font-size:11px;white-space:nowrap;color:#bbb;transition:color .2s,border-color .2s}
+a.chapter-webtoon-link:hover,a.chapter-webtoon-link:focus-visible {color:var(--cyan);border-color:var(--cyan)}
+.reading-link-unavailable {cursor:default}
+.reading-link-unavailable .chapter-number {text-decoration:none}
+.outline-button.reading-link-unavailable,.chapter-webtoon-link.reading-link-unavailable {color:#777;border-color:#303030}
+.outline-button.reading-link-unavailable:hover {color:#777;background:transparent}
+.outline-button.reading-link-unavailable::before {display:none}
+.novel-detail-copy .excerpt-panel {margin-bottom:16px}
+.novel-detail-copy .excerpt-panel p {margin-bottom:0}
+.excerpt-omission {margin:4px 0 8px;font-size:18px;line-height:18px;color:#999;text-align:center}
+.novel-detail-copy .novel-link {display:flex;align-items:center;justify-content:center;align-self:stretch;width:100%;min-width:0;min-height:52px;margin:0 0 20px;padding:14px 18px;font-size:15px;text-align:center}
+.novel-detail-copy .chapter-list .prologue {margin-top:0;margin-bottom:calc(2vh - 4px)}
+.novel-detail-copy .chapter-list .afterword {margin-top:calc(2vh - 4px)}
+
+.person-detail {justify-content:flex-start;overflow-y:auto;min-height:0;scrollbar-width:thin;scrollbar-color:#333 #000}
+.person-detail>* {flex-shrink:0}
+.character-reading {margin-top:28px;padding-top:24px;border-top:1px solid #252525}
+.character-reading .first-appearance-link {display:flex;min-width:0;width:100%;min-height:44px;padding:12px 10px;font-size:13px;text-align:center}
+.character-scenes-heading {display:flex;align-items:center;justify-content:space-between;gap:12px;margin:22px 0 12px}
+.character-reading h3 {font:600 14px/1.5 Pretendard;margin:0;color:#ccc}
+.character-scene-controls {display:flex;gap:4px;flex-shrink:0}
+.character-scene-controls button {display:grid;place-items:center;width:36px;height:36px;padding:0;border:1px solid #343434;border-radius:4px;background:transparent;color:#ddd;cursor:pointer}
+.character-scene-controls button svg {width:20px;height:20px}
+.character-scene-controls button:hover:not(:disabled) {color:var(--cyan);border-color:var(--cyan)}
+.character-scene-controls button:disabled {color:#444;border-color:#222;cursor:default}
+.character-scenes {display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 10px)/2);gap:10px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#444 #080a0c;padding-bottom:8px}
+.character-scene {position:relative;display:block;aspect-ratio:16/10;min-width:0;overflow:hidden;background:#0c0e10;border:1px solid #292d31;border-radius:3px;scroll-snap-align:start}
+.character-scene img {display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.scene-placeholder {position:absolute;inset:0;display:grid;place-items:center;color:#5c6369;font-size:16px;letter-spacing:.12em;background:linear-gradient(135deg,#101417,#080a0c)}
+a.character-scene:hover,a.character-scene:focus-visible {border-color:var(--cyan)}
+.scene-episode {position:absolute;left:0;right:0;bottom:0;padding:18px 8px 7px;background:linear-gradient(transparent,#000d);color:#ddd;font-size:10px}
+.chapter-novel-link:focus-visible,.chapter-webtoon-link:focus-visible,.character-scene:focus-visible {outline:2px solid var(--cyan);outline-offset:3px}
+.character-scenes:focus-visible,.character-scene-controls button:focus-visible {outline:2px solid var(--cyan);outline-offset:2px}
+
+@media (max-width:899px) {
+  .novel-detail-copy .chapter-list .prologue {margin-bottom:8px}
+  .novel-detail-copy .chapter-list .afterword {margin-top:8px}
+  .novel-shelf.detail-open .inline-book-scroll {padding-top:24px}
+  .chapter-novel-link {gap:12px}
+  .chapter-title {font-size:14px}
+  .people-unit .person-detail,.inline-person-open .library-detail .person-detail {overflow:visible;max-height:none}
+  .character-reading {width:100%;margin-top:24px}
+}
+@media (max-width:540px) {
+  .chapter-list {gap:14px}
+  .chapter-list li {flex-wrap:wrap;gap:4px}
+  .chapter-novel-link {flex-basis:100%}
+  .chapter-number {font-size:11px}
+  .chapter-title {font-size:16px}
+  .chapter-webtoon-link {margin:0 0 0 auto;min-height:36px}
+}

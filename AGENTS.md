@@ -70,6 +70,19 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Trailer choices display thumbnails and play official YouTube embeds in the page. Bottom-right CTA is an external “영화 보러가기” link.
 - Goods categories: 전체, 스페셜, 페이퍼, 아크릴, 피규어, 봉제, 패브릭, 기타. 전체 includes all supplied product images. Advance category after its actual product count; keep 4-second dwell and 1-second motion.
 
+## Reading links — 2026-09-26
+
+- Book CTAs read `PARTN-VV 보러가기` (e.g. `PART1-01 보러가기`), occupy the full copy-column width immediately below the excerpt and above the contents, and open the matching part/volume in Naver Series ebooks. Print and ebook volume contents differ; do not silently remap by print chapter coverage.
+- Every novel contents row has a webnovel link and an adjacent webtoon episode button. Book and chapter destinations are configured in `src/novelLinks.json`.
+- Episode arc numbers are not serialized chapter numbers. The published webtoon links use the arc's first webtoon installment, including arcs split between print volumes. Do not invent links for unadapted arcs.
+- All featured and catalogue character details share a first-appearance CTA and four configurable image/link slots under `명장면 보러가기`. Configure these in `src/characterLinks.json`; preserve empty image slots until assets are supplied.
+- Scene slots form a single horizontally scrollable row, with previous/next controls to the right of the `명장면 보러가기` heading. Apply to both featured characters and the full catalogue.
+- Lifted book spines need space above them inside the horizontal scroll area, including when details are open.
+- Keep book CTA spacing at 16px above and 20px below, without extra top margin on the Prologue row. Contents row gaps are 10px normally and 14px at widths up to 540px. Reduce only the extra margin after Prologue and before the standalone afterword by 4px: `calc(2vh - 4px)` on desktop and 8px on mobile.
+- Show a centered `…` omission indicator between each novel excerpt and its source caption.
+- Underlined contents labels open the corresponding arc's first serialized chapter on official Munpia in a new tab. Use verified chapter IDs from the public chapter catalogue; preserve separate Naver Series ebook CTAs. Unavailable non-serial notes have no underline.
+- Unverified destinations remain disabled. Current outstanding content: character first-appearance/scene selections. See `READING-LINKS.md`.
+
 ## Analytics implementation
 
 - Platform: React 19 + Vite 6 web app; SDK: `mixpanel-browser` `^2.83.0`; direct client-side tracking with no CDP.

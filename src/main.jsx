@@ -4,6 +4,7 @@ import { App } from "./App.jsx";
 import "./styles.css";
 import "./revisions.css";
 import "./feedback.css";
+import "./reading-links.css";
 import { bindPageLifecycle, initAnalytics } from "./analytics.js";
 
 initAnalytics();
