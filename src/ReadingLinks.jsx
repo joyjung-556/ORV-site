@@ -30,9 +30,9 @@ export function ChapterLinks({bookId, chapters}) {
           <span className="chapter-number">{chapter.label}</span>
           {chapter.title && <span className="chapter-title">{chapter.title}</span>}
         </ReadingLink>
-        <ReadingLink href={entry?.webtoonUrl} className="chapter-webtoon-link" unavailable={entry?.webtoonStatus === 'unreleased' ? '웹툰 미공개' : '준비 중'} label={`${chapter.label} ${chapter.title} 웹툰 ${entry?.webtoonEpisode ? `${entry.webtoonEpisode}화 ` : ''}보기`}>
+        {entry?.webtoonStatus !== 'hidden' && <ReadingLink href={entry?.webtoonUrl} className="chapter-webtoon-link" unavailable={entry?.webtoonStatus === 'unreleased' ? '웹툰 미공개' : '준비 중'} label={`${chapter.label} ${chapter.title} 웹툰 ${entry?.webtoonEpisode ? `${entry.webtoonEpisode}화 ` : ''}보기`}>
           {entry?.webtoonEpisode ? `웹툰 ${entry.webtoonEpisode}화` : entry?.webtoonStatus === 'unreleased' ? '웹툰 미공개' : '웹툰 준비 중'}
-        </ReadingLink>
+        </ReadingLink>}
       </li>;
     })}
   </ol>;
@@ -46,6 +46,11 @@ export function BookLink({book}) {
 
 export function CharacterReadingLinks({character}) {
   const entry = characterLinks[character.id];
+  const appearanceKind = entry?.firstAppearanceType === 'message' ? '첫 메시지' : '첫 등장';
+  const appearanceLabel = entry?.webtoonStatus === 'novel_only' ? '웹소설에만 등장'
+    : entry?.firstAppearanceEpisode === '0' ? `${appearanceKind} 프롤로그 보러가기`
+    : entry?.firstAppearanceEpisode ? `${appearanceKind} ${entry.firstAppearanceEpisode}화 보러가기`
+    : `${appearanceKind} 회차 확인 중`;
   const scenesRef = useRef(null);
   const scenesId = useId();
   const [edges, setEdges] = useState({start: true, end: false});
@@ -68,9 +73,12 @@ export function CharacterReadingLinks({character}) {
     el.scrollBy({left: direction * (cardWidth + gap), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
   };
   return <div className="character-reading">
-    <ReadingLink className="outline-button first-appearance-link" href={entry?.firstAppearanceUrl} label={`${character.name} 첫 등장 화 보러가기`}>
-      첫 등장 화 보러가기
-    </ReadingLink>
+    {entry?.webtoonStatus === 'novel_only'
+      ? <p className="first-appearance-status">웹소설에만 등장</p>
+      : <ReadingLink className="outline-button first-appearance-link" href={entry?.firstAppearanceUrl} unavailable="회차 확인 중" label={`${character.name} ${appearanceLabel}`}>
+        {appearanceLabel}
+      </ReadingLink>}
+    {entry?.firstAppearanceNote && <p className="first-appearance-note">{entry.firstAppearanceNote}</p>}
     <div className="character-scenes-heading">
       <h3>명장면 보러가기</h3>
       <div className="character-scene-controls">
@@ -86,11 +94,12 @@ export function CharacterReadingLinks({character}) {
     }}>
       {Array.from({length: 4}, (_, index) => {
         const scene = entry?.scenes?.[index];
-        return <ReadingLink key={index} className="character-scene" href={scene?.url} label={`${character.name} 명장면 ${index + 1}${scene?.episode ? ` · 웹툰 ${scene.episode}화` : ''}`}>
+        return <ReadingLink key={index} className={`character-scene${scene?.quote ? ' has-quote' : ''}`} href={scene?.url} label={`${character.name} ${scene?.title || `명장면 ${index + 1}`}${scene?.episode ? ` · 웹툰 ${scene.episode}화` : ''}${scene?.quote ? ` · ${scene.quote}` : ''}`}>
           {scene?.image
             ? <img src={scene.image} alt={scene.alt || `${character.name} 명장면 ${index + 1}`} loading="lazy"/>
             : <span className="scene-placeholder" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>}
-          {scene?.episode && <span className="scene-episode">웹툰 {scene.episode}화</span>}
+          {scene?.quote && <span className="scene-quote"><span>“{scene.quote}”</span></span>}
+          {scene?.episode && <span className="scene-episode">{scene.title && <span className="scene-title">{scene.title}</span>}웹툰 {scene.episode}화</span>}
         </ReadingLink>;
       })}
     </div>

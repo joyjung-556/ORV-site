@@ -1,873 +1,1172 @@
 {
   "dokja": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=1",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "1",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=2",
+        "alt": "멸살법을 읽는 유일한 독자",
+        "title": "멸살법을 읽는 유일한 독자",
+        "quote": "멸망한 세계에서 살아남는 세 가지 방법이 있다.",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Kim_Dokja",
+        "quoteSource": "https://comic.naver.com/webtoon/detail?titleId=747269&no=2"
+      },
+      {
+        "image": "",
+        "episode": "220",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=221",
+        "alt": "예언의 의미와 마지막 선택",
+        "title": "예언의 의미와 마지막 선택",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Joonghyuk/Gallery"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
-      },
-      {
-        "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "0",
+    "firstAppearanceNote": "프롤로그",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Kim_Dokja"
   },
   "joonghyuk": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=11",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "12",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=13",
+        "alt": "한강 다리에서의 선택",
+        "title": "한강 다리에서의 선택",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Joonghyuk/Gallery"
       },
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "64",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=65",
+        "alt": "절대 왕좌를 둘러싼 전투",
+        "title": "절대 왕좌를 둘러싼 전투",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Joonghyuk/Gallery"
       },
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "99",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=100",
+        "alt": "홍수의 재앙과 맞서는 유중혁",
+        "title": "홍수의 재앙과 맞서는 유중혁",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Joonghyuk/Gallery"
       },
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "278",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=279",
+        "alt": "무림에서 검을 손에 넣는 순간",
+        "title": "무림에서 검을 손에 넣는 순간",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Joonghyuk/Gallery"
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "10",
+    "firstAppearanceNote": "이름 공개 전 첫 등장; 이름 공개는 11화",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Joonghyuk"
   },
   "sooyoung": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=56",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "185",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=186",
+        "alt": "김독자와 함께 이동하는 한수영",
+        "title": "김독자와 함께 이동하는 한수영",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Han_Sooyoung/Gallery"
+      },
+      {
+        "image": "",
+        "episode": "243",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=244",
+        "alt": "유상아와 김독자를 이야기하는 한수영",
+        "title": "유상아와 김독자를 이야기하는 한수영",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Han_Sooyoung/Gallery"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
-      },
-      {
-        "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "55",
+    "firstAppearanceNote": "첫 번째 사도 모습; 본체는 64화",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Han_Sooyoung"
   },
   "sangah": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=2",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "78",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=79",
+        "alt": "전투에 합류하는 유상아",
+        "title": "전투에 합류하는 유상아",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Sangah/Gallery"
       },
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "88",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=89",
+        "alt": "유상아를 통해 말하는 아리아드네",
+        "title": "유상아를 통해 말하는 아리아드네",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Sangah/Gallery"
       },
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "238",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=239",
+        "alt": "김독자의 생존을 믿는 유상아",
+        "title": "김독자의 생존을 믿는 유상아",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Sangah/Gallery"
       },
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "300",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=301",
+        "alt": "마왕 선발전에 합류하는 유상아",
+        "title": "마왕 선발전에 합류하는 유상아",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Sangah/Gallery"
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "1",
+    "firstAppearanceNote": "",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Sangah"
   },
   "hyunsung": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=4",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "154",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=155",
+        "alt": "첫 전신 강철화",
+        "title": "첫 전신 강철화",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Lee_Hyunsung/Gallery"
       },
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "155",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=156",
+        "alt": "감염된 정희원을 끌어안는 이현성",
+        "title": "감염된 정희원을 끌어안는 이현성",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Lee_Hyunsung/Gallery"
       },
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "300",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=301",
+        "alt": "눈물을 보이는 이현성",
+        "title": "눈물을 보이는 이현성",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Lee_Hyunsung/Gallery"
       },
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "301",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=302",
+        "alt": "김독자를 업는 이현성",
+        "title": "김독자를 업는 이현성",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Lee_Hyunsung/Gallery"
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "3",
+    "firstAppearanceNote": "",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Lee_Hyunsung"
   },
   "heewon": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=17",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "106",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=107",
+        "alt": "홍수의 재앙에 맞서는 정희원",
+        "title": "홍수의 재앙에 맞서는 정희원",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Jung_Heewon/Gallery"
       },
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "182",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=183",
+        "alt": "김독자에게 새 검을 받는 정희원",
+        "title": "김독자에게 새 검을 받는 정희원",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Jung_Heewon/Gallery"
       },
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "187",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=188",
+        "alt": "낙원의 주인과 싸우는 정희원",
+        "title": "낙원의 주인과 싸우는 정희원",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Jung_Heewon/Gallery"
       },
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "311",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=312",
+        "alt": "우리엘이 함께하는 정희원의 전투",
+        "title": "우리엘이 함께하는 정희원의 전투",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Jung_Heewon/Gallery"
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "16",
+    "firstAppearanceNote": "",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Jung_Heewon"
   },
   "gilyoung": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=2",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "8",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=9",
+        "alt": "첫 시나리오에서 살아남은 이길영",
+        "title": "첫 시나리오에서 살아남은 이길영",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Lee_Gilyoung"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "1",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Lee_Gilyoung",
+    "firstAppearanceNote": "최초 모습 기준 · 이름 공개는 7화"
   },
   "yoosung": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=91",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "90",
+    "firstAppearanceNote": "어린 신유승; 41회차의 재앙과 구분",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Shin_Yoosung"
   },
   "jihye": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=4",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "3",
+    "firstAppearanceNote": "방송 화면으로 첫 등장; 일행과의 만남은 26화",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Lee_Jihye"
   },
   "pildu": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=29",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "28",
+    "firstAppearanceNote": "",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Gong_Pildu"
   },
   "seolhwa": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=80",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "79",
+    "firstAppearanceNote": "현재 회차 기준; 78화에 과거 회차 모습",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Lee_Seolhwa"
   },
   "hayoung": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=227",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "226",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Jang_Hayoung",
+    "firstAppearanceNote": "225화의 언급과 구분 · 김독자와 부딪히는 장면"
   },
   "myungoh": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=3",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "2",
+    "firstAppearanceNote": "공식 2화에서 재무팀 한 부장으로 확인",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Han_Myungoh"
   },
   "sookyung": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=74",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "73",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Lee_Sookyung",
+    "firstAppearanceNote": "15화의 언급과 구분한 최초 모습"
   },
   "persephone": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=115",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "114",
+    "firstAppearanceNote": "",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Persephone"
   },
   "mia": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=65",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "179",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=180",
+        "alt": "유중혁과 유미아",
+        "title": "유중혁과 유미아",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Mia"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "64",
+    "firstAppearanceNote": "",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yoo_Mia"
   },
   "namwoon": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=5",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "6",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=7",
+        "alt": "김독자와 맞서는 김남운",
+        "title": "김독자와 맞서는 김남운",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Kim_Namwoon"
+      },
+      {
+        "image": "",
+        "episode": "112",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=113",
+        "alt": "명계에서의 재회",
+        "title": "명계에서의 재회",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Kim_Namwoon"
+      },
+      {
+        "image": "",
+        "episode": "251",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=252",
+        "alt": "거신병의 암호를 알려주는 김남운",
+        "title": "거신병의 암호를 알려주는 김남운",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Kim_Namwoon"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
-      },
-      {
-        "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
-      },
-      {
-        "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "4",
+    "firstAppearanceNote": "",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Kim_Namwoon"
   },
   "inho": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=18",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "17",
+    "firstAppearanceNote": "",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Cheon_Inho"
   },
   "anna": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=33",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "32",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=33",
+        "alt": "김독자의 미래를 보려는 안나",
+        "title": "김독자의 미래를 보려는 안나",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Anna_Croft"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "32",
+    "firstAppearanceNote": "",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Anna_Croft"
   },
   "jiwon": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=59",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "58",
+    "firstAppearanceNote": "",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Min_Jiwon"
   },
   "kyrgios": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=136",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "137",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=138",
+        "alt": "김독자와 만나는 키리오스",
+        "title": "김독자와 만나는 키리오스",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Kyrgios_Rodgraim"
+      },
+      {
+        "image": "",
+        "episode": "145",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=146",
+        "alt": "비올라를 연주하는 키리오스",
+        "title": "비올라를 연주하는 키리오스",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Kyrgios_Rodgraim"
+      },
+      {
+        "image": "",
+        "episode": "286",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=287",
+        "alt": "김독자를 찾아온 스승",
+        "title": "김독자를 찾아온 스승",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Kyrgios_Rodgraim"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
-      },
-      {
-        "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
-      },
-      {
-        "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "135",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Kyrgios_Rodgraim",
+    "firstAppearanceNote": "최초 모습 기준"
   },
   "nirvana": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=150",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "152",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=153",
+        "alt": "김독자와 대치하는 니르바나",
+        "title": "김독자와 대치하는 니르바나",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Nirvana_Moebius"
+      },
+      {
+        "image": "",
+        "episode": "161",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=162",
+        "alt": "유중혁과의 전투",
+        "title": "유중혁과의 전투",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Nirvana_Moebius"
+      },
+      {
+        "image": "",
+        "episode": "164",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=165",
+        "alt": "유중혁의 내면에 들어간 니르바나",
+        "title": "유중혁의 내면에 들어간 니르바나",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Nirvana_Moebius"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
-      },
-      {
-        "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
-      },
-      {
-        "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "149",
+    "firstAppearanceNote": "",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Nirvana_Moebius"
   },
   "namgung": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=266",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "266",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=267",
+        "alt": "유중혁을 붙잡는 스승",
+        "title": "유중혁을 붙잡는 스승",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Namgung_Minyoung"
+      },
+      {
+        "image": "",
+        "episode": "286",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=287",
+        "alt": "외신과 맞서는 파천검성",
+        "title": "외신과 맞서는 파천검성",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Namgung_Minyoung"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
-      },
-      {
-        "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "265",
+    "firstAppearanceNote": "263화 실루엣과 구분",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Namgung_Minyoung"
   },
   "black-dragon": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=9",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "8",
+    "firstAppearanceNote": "수식언이 표시되는 후원 선택 시스템 메시지 기준",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Abyssal_Black_Flame_Dragon",
+    "firstAppearanceType": "message"
   },
   "uriel": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=9",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "171",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=172",
+        "alt": "성좌 연회에서 일행을 지켜보는 우리엘",
+        "title": "성좌 연회에서 일행을 지켜보는 우리엘",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Uriel/Gallery"
+      },
+      {
+        "image": "",
+        "episode": "243",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=244",
+        "alt": "유중혁의 어깨 위 우리엘",
+        "title": "유중혁의 어깨 위 우리엘",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Uriel/Gallery"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
-      },
-      {
-        "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "8",
+    "firstAppearanceNote": "수식언이 표시되는 후원 선택 시스템 메시지 기준",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Uriel",
+    "firstAppearanceType": "message"
   },
   "plotter": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=9",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "8",
+    "firstAppearanceNote": "수식언이 표시되는 후원 선택 시스템 메시지 기준",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Secretive_Plotter",
+    "firstAppearanceType": "message"
   },
   "monkey-king": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=9",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceType": "message",
+    "firstAppearanceNote": "긴고아의 죄수 · 후원 선택 시스템 메시지 기준",
+    "firstAppearanceEpisode": "8",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Great_Sage%2C_Heaven%27s_Equal"
   },
   "sunshin": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=27",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceType": "message",
+    "firstAppearanceNote": "해상전신 · 후원 성좌 메시지 기준",
+    "firstAppearanceEpisode": "26",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Yi_Sunsin"
   },
   "junkyung": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=97",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "311",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=312",
+        "alt": "마왕 선발전에 참전한 척준경",
+        "title": "마왕 선발전에 참전한 척준경",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Cheok_Jungyeong"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceNote": "고려제일검 · 두 번째 후원 선택 시스템 메시지 기준",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Chapter_100",
+    "firstAppearanceType": "message",
+    "physicalAppearanceEpisode": "168",
+    "physicalAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Cheok_Jungyeong",
+    "firstAppearanceEpisode": "96"
   },
   "surya": {
     "firstAppearanceUrl": "",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "299",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=300",
+        "alt": "제3의 눈을 사용하는 수르야",
+        "title": "제3의 눈을 사용하는 수르야",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Surya"
+      },
+      {
+        "image": "",
+        "episode": "300",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=301",
+        "alt": "제3의 눈에 피가 흐르는 순간",
+        "title": "제3의 눈에 피가 흐르는 순간",
+        "quote": "",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Surya"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
-      },
-      {
-        "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceNote": "첫 메시지 회차 대조 중",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Surya",
+    "firstAppearanceType": "message",
+    "physicalAppearanceEpisode": "299",
+    "physicalAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Surya"
   },
   "hades": {
     "firstAppearanceUrl": "",
@@ -876,27 +1175,36 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceNote": "첫 메시지 회차 대조 중",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Hades",
+    "firstAppearanceType": "message",
+    "physicalAppearanceEpisode": "116",
+    "physicalAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Hades"
   },
   "oldest-dream": {
     "firstAppearanceUrl": "",
@@ -905,27 +1213,33 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceType": "message",
+    "firstAppearanceNote": "첫 메시지 회차 대조 중"
   },
   "asmodeus": {
     "firstAppearanceUrl": "",
@@ -934,27 +1248,33 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceType": "message",
+    "firstAppearanceNote": "첫 메시지 회차 대조 중"
   },
   "agares": {
     "firstAppearanceUrl": "",
@@ -963,27 +1283,33 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceType": "message",
+    "firstAppearanceNote": "첫 메시지 회차 대조 중"
   },
   "mass-production": {
     "firstAppearanceUrl": "",
@@ -992,172 +1318,220 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceNote": "첫 메시지 회차 대조 중",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Mass_Production_Maker",
+    "firstAppearanceType": "message",
+    "physicalAppearanceEpisode": "272",
+    "physicalAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Mass_Production_Maker"
   },
   "bihyung": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=3",
     "scenes": [
       {
         "image": "",
-        "episode": "",
-        "url": "",
-        "alt": ""
+        "episode": "2",
+        "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=3",
+        "alt": "현실이 무너지는 첫 도깨비 방송",
+        "title": "현실이 무너지는 첫 도깨비 방송",
+        "quote": "당신들이 알던 '현실'도 아닙니다!",
+        "source": "https://omniscient-readers-viewpoint.fandom.com/wiki/Bihyung",
+        "quoteSource": "https://comic.naver.com/webtoon/detail?titleId=747269&no=3"
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "2",
+    "firstAppearanceNote": "",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Bihyung"
   },
   "biryoo": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=19",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "18",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Biryu",
+    "firstAppearanceNote": "최초 모습 기준"
   },
   "youngki": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=111",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "110",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Youngki",
+    "firstAppearanceNote": "최초 모습 기준"
   },
   "biyoo": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=244",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "243",
+    "firstAppearanceNote": "도깨비 비유 모습 기준",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/Biyoo"
   },
   "tls123": {
-    "firstAppearanceUrl": "",
+    "firstAppearanceUrl": "https://comic.naver.com/webtoon/detail?titleId=747269&no=2",
     "scenes": [
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "firstAppearanceEpisode": "1",
+    "firstAppearanceSource": "https://omniscient-readers-viewpoint.fandom.com/wiki/tls123",
+    "firstAppearanceNote": "김독자에게 보낸 작가의 문자 메시지",
+    "firstAppearanceType": "message"
   },
   "joonghyuk-1863": {
     "firstAppearanceUrl": "",
@@ -1166,27 +1540,35 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   },
   "joonghyuk-0": {
     "firstAppearanceUrl": "",
@@ -1195,27 +1577,35 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   },
   "jaehwan": {
     "firstAppearanceUrl": "",
@@ -1224,27 +1614,35 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   },
   "side-hakhyun": {
     "firstAppearanceUrl": "",
@@ -1253,27 +1651,35 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   },
   "side-jieun": {
     "firstAppearanceUrl": "",
@@ -1282,27 +1688,35 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   },
   "side-joonghyuk": {
     "firstAppearanceUrl": "",
@@ -1311,27 +1725,35 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   },
   "side-heewon": {
     "firstAppearanceUrl": "",
@@ -1340,27 +1762,35 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   },
   "side-dansoo": {
     "firstAppearanceUrl": "",
@@ -1369,27 +1799,35 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   },
   "side-sein": {
     "firstAppearanceUrl": "",
@@ -1398,27 +1836,35 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   },
   "side-sungwoo": {
     "firstAppearanceUrl": "",
@@ -1427,27 +1873,35 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   },
   "side-yerin": {
     "firstAppearanceUrl": "",
@@ -1456,27 +1910,35 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   },
   "side-hyunwoo": {
     "firstAppearanceUrl": "",
@@ -1485,27 +1947,35 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   },
   "side-snow-dokja": {
     "firstAppearanceUrl": "",
@@ -1514,26 +1984,34 @@
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       },
       {
         "image": "",
         "episode": "",
         "url": "",
-        "alt": ""
+        "alt": "",
+        "quote": ""
       }
-    ]
+    ],
+    "webtoonStatus": "novel_only",
+    "firstAppearanceNote": "현재 공개된 웹툰 기준 · 해당 인물/회차의 직접 등장 미공개",
+    "webtoonStatusSource": "https://m.comic.naver.com/webtoon/list?titleId=747269",
+    "webtoonStatusCheckedAt": "2026-10-01"
   }
 }

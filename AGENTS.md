@@ -1,5 +1,10 @@
 # Prototype Instructions
 
+## Character scene refinements — 2026-10-01
+
+- Scene images darken on hover and keyboard focus; the scene's verified Korean quote appears centered in white. Configure `quote` in `src/characterLinks.json`. Preserve empty image slots until assets are supplied.
+- Fill sourced first appearances and representative scenes, distinguish alias/message/cameo/body appearances, and preserve separate side-story/round entries.
+
 Run the local server yourself and open the preview in the browser available to this environment. Do not give the user server-start instructions when you can run it.
 
 Before making substantial visual changes, use the Product Design plugin's `get-context` skill when the visual source is unclear or no longer matches the current goal. When the user gives durable prototype-specific design feedback, preferences, or decisions, record them in `AGENTS.md`.
@@ -83,6 +88,11 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Underlined contents labels open the corresponding arc's first serialized chapter on official Munpia in a new tab. Use verified chapter IDs from the public chapter catalogue; preserve separate Naver Series ebook CTAs. Unavailable non-serial notes have no underline.
 - Unverified destinations remain disabled. Current outstanding content: character first-appearance/scene selections. See `READING-LINKS.md`.
 
+## Novel shelf refinements — 2026-09-30
+
+- The first three books in each filtered shelf show hover/focus cover previews to the right, including short Parts 2–5.
+- PART1-01 작가의 말 has no webtoon button or unavailable placeholder; keep its novel contents label.
+
 ## Analytics implementation
 
 - Platform: React 19 + Vite 6 web app; SDK: `mixpanel-browser` `^2.83.0`; direct client-side tracking with no CDP.
@@ -94,3 +104,9 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Current events: `page_viewed`, `page_exited`, `internal_navigation`, `external_link_clicked`. Event and property names must remain stable `snake_case`.
 - Before adding an event, check `MIXPANEL.md`, reuse existing properties, update both that document and this list, and verify in Mixpanel Live View.
 - Internal navigation uses `navigation_method`: `click` for header links, `scroll` for wheel/touch section changes, `keyboard` for PageUp/PageDown, and `browser_history` for browser navigation. Compare departures from the main screen with `from_page_id = main`.
+
+## Character appearance definitions — 2026-10-01
+- The `웹소설에만 등장` status has the same 8px corner radius as the first-appearance button.
+- Ordinary characters use their first visible appearance, with later naming/earlier mentions distinguished in notes.
+- Constellations / demon kings use first messages, including system sponsorship offers identified by their modifier; do not substitute a later physical appearance for an unverified first message.
+- Side-story and alternate-round entries without a released webtoon appearance display `웹소설에만 등장`, qualified by `현재 공개된 웹툰 기준`. Preserve their separate IDs and all four configurable scene slots.
